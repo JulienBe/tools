@@ -1,9 +1,9 @@
 #!/bin/bash
 
 repo=$1
-job_nubmer=$2
+job_number=$2
 
-echo "Trying to dl logs for job $job_nomber of $repo"
+echo "Trying to dl logs for job $job_number of $repo"
 
 curl --connect-timeout 5 \
      --max-time 10 \
